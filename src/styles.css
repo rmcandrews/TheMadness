@@ -1,1 +1,128 @@
 /* You can add global styles to this file, and also import other style files */
+html, 
+body {
+    height: 100%;
+}
+
+ /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.close-x {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.loading-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -7px 0 0 -55px;
+  width: 110px;
+  height: 14px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 14px;
+  border: 2px solid black;
+  margin: 10px;
+  animation: rotate 2s infinite linear;
+  animation-fill-mode: both; 
+  display: inline-block;
+}
+
+.circle:nth-of-type(2) {
+    animation: rotate2 2s infinite linear;
+  animation-fill-mode: both; 
+}
+
+.circle:nth-of-type(3) {
+    animation: rotate3 2s infinite linear;
+  animation-fill-mode: both; 
+}
+
+@keyframes rotate {
+  0% { 
+    transform: scale(0);
+    opacity: 0;
+  }
+  25% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  75% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  85% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% { 
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate2 {
+  0% { 
+    transform: scale(0);
+    opacity: 0;
+  }
+  25% { 
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  75% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  85% { 
+    transform: scale(1);
+    opacity: 1;
+  } 
+  100% { 
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate3 {
+  0% { 
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% { 
+    transform: scale(0);
+    opacity: 0;
+  }
+  75% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  85% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% { 
+    transform: scale(1);
+    opacity: 0;
+  }
+}

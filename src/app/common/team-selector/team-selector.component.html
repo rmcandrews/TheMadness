@@ -1,0 +1,9 @@
+<ng-select    #recipientsInput
+              [disabled]="disabled"
+              (data)="refreshValue($event)"
+              (selected)="selected($event)"
+              (removed)="removed($event)"
+              (typed)="typed($event)"
+              placeholder="Select a team"
+              class="ng-select">
+  </ng-select>

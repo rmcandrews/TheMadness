@@ -1,0 +1,67 @@
+<a class="close-x" [routerLink]="['/admin']"><i class="material-icons md-48">clear</i></a>
+<div class="ph3">
+    <div class="w-100 tc pt2 f3 lh-title mb3">Create Pool</div>
+    <div class="w-100 tc mb3">Year <input [(ngModel)]="year" type="number" class="tc w3 br2 ba"></div>
+    <div class="mb2">
+        <ng-select  [allowClear]="true"
+                    [items]="['East','Midwest','South','West']"
+                    [disabled]="disabled"
+                    (data)="refreshValue($event)"
+                    (selected)="regionSelected($event)"
+                    (removed)="removed($event)"
+                    (typed)="typed($event)"
+                    placeholder="Region">
+        </ng-select>
+        <app-team-selector class="mt1" (teamSelected)="onTeamSelected($event)"></app-team-selector>
+        <ng-select  class="mt1"
+                    [allowClear]="true"
+                    [items]="seedOptions"
+                    [disabled]="disabled"
+                    (data)="refreshValue($event)"
+                    (selected)="seedSelected($event)"
+                    (removed)="removed($event)"
+                    (typed)="typed($event)"
+                    placeholder="Seed">
+        </ng-select>
+        <div class="tc mt1">
+            <a class="f6 dim ba ph3 pv2 mb2 dib blue br2" (click)="addTeam($event)" href="">Add</a>
+        </div>
+        <div class="tc dark-red" *ngIf="teamAddError">
+            {{ teamAddError }}
+        </div>
+    </div>
+    <div class="bt bb bg-moon-gray pl1">EAST</div>
+    <div *ngFor="let team of teams">
+        <div *ngIf="team.region=='East'" class="bt pl1 cf">
+            <div class="fl w-80">{{ team.seed }} {{ team.name }}</div>
+            <div class="fl w-20 tr" style="height: 24px;"><a (click)="removeTeam($event, team)" href=""><i class="material-icons md-24 red">clear</i></a></div>
+        </div>
+    </div>
+    <div class="bt bb bg-moon-gray pl1">MIDWEST</div>
+    <div *ngFor="let team of teams">
+        <div *ngIf="team.region=='Midwest'" class="bt pl1 cf">
+            <div class="fl w-80">{{ team.seed }} {{ team.name }}</div>
+            <div class="fl w-20 tr" style="height: 24px;"><a (click)="removeTeam($event, team)" href=""><i class="material-icons md-24 red">clear</i></a></div>
+        </div>
+    </div>
+    <div class="bt bb bg-moon-gray pl1">SOUTH</div>
+    <div *ngFor="let team of teams">
+        <div *ngIf="team.region=='South'" class="bt pl1 cf">
+            <div class="fl w-80">{{ team.seed }} {{ team.name }}</div>
+            <div class="fl w-20 tr" style="height: 24px;"><a (click)="removeTeam($event, team)" href=""><i class="material-icons md-24 red">clear</i></a></div>
+        </div>
+    </div>
+    <div class="bt bb bg-moon-gray pl1">WEST</div>
+    <div *ngFor="let team of teams">
+        <div *ngIf="team.region=='West'" class="bt pl1 cf">
+            <div class="fl w-80">{{ team.seed }} {{ team.name }}</div>
+            <div class="fl w-20 tr" style="height: 24px;"><a (click)="removeTeam($event, team)" href=""><i class="material-icons md-24 red">clear</i></a></div>
+        </div>
+    </div>
+    <div class="tc mt2">
+        <a class="f6 dim ba ph3 pv2 mb2 dib green br2" (click)="createPool($event)" href="">Create</a>
+    </div>
+    <div class="tc dark-red" *ngIf="poolCreateError">
+        {{ poolCreateError }}
+    </div>
+</div>

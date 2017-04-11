@@ -1,0 +1,2810 @@
+[
+  {
+    "id": 2710,
+    "shortName": "W Illinois",
+    "fullName": "Western Illinois Leathernecks",
+    "name": "Western Illinois",
+    "nickName": "Leathernecks",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 270,
+    "shortName": "Milwaukee",
+    "fullName": "Milwaukee Panthers",
+    "name": "Milwaukee",
+    "nickName": "Panthers",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 2210,
+    "shortName": "Elon",
+    "fullName": "Elon Phoenix",
+    "name": "Elon",
+    "nickName": "Phoenix",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 2506,
+    "shortName": "Presbyterian",
+    "fullName": "Presbyterian College Blue Hose",
+    "name": "Presbyterian College",
+    "nickName": "Blue Hose",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 119,
+    "shortName": "Towson",
+    "fullName": "Towson Tigers",
+    "name": "Towson",
+    "nickName": "Tigers",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 2523,
+    "shortName": "Robert Morris",
+    "fullName": "Robert Morris Colonials",
+    "name": "Robert Morris",
+    "nickName": "Colonials",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2628,
+    "shortName": "TCU",
+    "fullName": "TCU Horned Frogs",
+    "name": "TCU",
+    "nickName": "Horned Frogs",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 12,
+    "shortName": "Arizona",
+    "fullName": "Arizona Wildcats",
+    "name": "Arizona",
+    "nickName": "Wildcats",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2029,
+    "shortName": "AR-Pine Bluff",
+    "fullName": "Arkansas-Pine Bluff Golden Lions",
+    "name": "Arkansas-Pine Bluff",
+    "nickName": "Golden Lions",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 2670,
+    "shortName": "VCU",
+    "fullName": "VCU Rams",
+    "name": "VCU",
+    "nickName": "Rams",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2678,
+    "shortName": "VMI",
+    "fullName": "VMI Keydets",
+    "name": "VMI",
+    "nickName": "Keydets",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 2711,
+    "shortName": "W Michigan",
+    "fullName": "Western Michigan Broncos",
+    "name": "Western Michigan",
+    "nickName": "Broncos",
+    "conferenceName": "Mid-American - West"
+  },
+  {
+    "id": 179,
+    "shortName": "St Bonaventure",
+    "fullName": "St Bonaventure Bonnies",
+    "name": "St Bonaventure",
+    "nickName": "Bonnies",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 3084,
+    "shortName": "Utah Valley",
+    "fullName": "Utah Valley Wolverines",
+    "name": "Utah Valley",
+    "nickName": "Wolverines",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 219,
+    "shortName": "Penn",
+    "fullName": "Penn Quakers",
+    "name": "Penn",
+    "nickName": "Quakers",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 2296,
+    "shortName": "Jackson State",
+    "fullName": "Jackson State Tigers",
+    "name": "Jackson State",
+    "nickName": "Tigers",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 2617,
+    "shortName": "SF Austin",
+    "fullName": "Stephen F. Austin Lumberjacks",
+    "name": "Stephen F. Austin",
+    "nickName": "Lumberjacks",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 70,
+    "shortName": "Idaho",
+    "fullName": "Idaho Vandals",
+    "name": "Idaho",
+    "nickName": "Vandals",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2026,
+    "shortName": "Appalachian St",
+    "fullName": "Appalachian State Mountaineers",
+    "name": "Appalachian State",
+    "nickName": "Mountaineers",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 254,
+    "shortName": "Utah",
+    "fullName": "Utah Utes",
+    "name": "Utah",
+    "nickName": "Utes",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 85,
+    "shortName": "IUPUI",
+    "fullName": "IUPUI Jaguars",
+    "name": "IUPUI",
+    "nickName": "Jaguars",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 47,
+    "shortName": "Howard",
+    "fullName": "Howard Bison",
+    "name": "Howard",
+    "nickName": "Bison",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 26,
+    "shortName": "UCLA",
+    "fullName": "UCLA Bruins",
+    "name": "UCLA",
+    "nickName": "Bruins",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2351,
+    "shortName": "Loyola Mary",
+    "fullName": "Loyola Marymount Lions",
+    "name": "Loyola Marymount",
+    "nickName": "Lions",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 2598,
+    "shortName": "St Francis (PA)",
+    "fullName": "St Francis (PA) Red Flash",
+    "name": "St Francis (PA)",
+    "nickName": "Red Flash",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2509,
+    "shortName": "Purdue",
+    "fullName": "Purdue Boilermakers",
+    "name": "Purdue",
+    "nickName": "Boilermakers",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2635,
+    "shortName": "Tenn Tech",
+    "fullName": "Tennessee Tech Golden Eagles",
+    "name": "Tennessee Tech",
+    "nickName": "Golden Eagles",
+    "conferenceName": "Ohio Valley - East"
+  },
+  {
+    "id": 2803,
+    "shortName": "Bryant",
+    "fullName": "Bryant Bulldogs",
+    "name": "Bryant",
+    "nickName": "Bulldogs",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2739,
+    "shortName": "Green Bay",
+    "fullName": "Green Bay Phoenix",
+    "name": "Green Bay",
+    "nickName": "Phoenix",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 250,
+    "shortName": "UT Arlington",
+    "fullName": "UT Arlington Mavericks",
+    "name": "UT Arlington",
+    "nickName": "Mavericks",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 2643,
+    "shortName": "The Citadel",
+    "fullName": "The Citadel Bulldogs",
+    "name": "The Citadel",
+    "nickName": "Bulldogs",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 232,
+    "shortName": "Charleston",
+    "fullName": "Charleston Cougars",
+    "name": "Charleston",
+    "nickName": "Cougars",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 2115,
+    "shortName": "Cent Conn St",
+    "fullName": "Central Connecticut Blue Devils",
+    "name": "Central Connecticut",
+    "nickName": "Blue Devils",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2535,
+    "shortName": "Samford",
+    "fullName": "Samford Bulldogs",
+    "name": "Samford",
+    "nickName": "Bulldogs",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 2619,
+    "shortName": "Stony Brook",
+    "fullName": "Stony Brook Seawolves",
+    "name": "Stony Brook",
+    "nickName": "Seawolves",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 2534,
+    "shortName": "Sam Houston",
+    "fullName": "Sam Houston State Bearkats",
+    "name": "Sam Houston State",
+    "nickName": "Bearkats",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2443,
+    "shortName": "New Orleans",
+    "fullName": "New Orleans Privateers",
+    "name": "New Orleans",
+    "nickName": "Privateers",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 325,
+    "shortName": "Cleveland State",
+    "fullName": "Cleveland State Vikings",
+    "name": "Cleveland State",
+    "nickName": "Vikings",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 292,
+    "shortName": "UT Rio Grande",
+    "fullName": "UT Rio Grande Valley Vaqueros",
+    "name": "UT Rio Grande Valley",
+    "nickName": "Vaqueros",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 213,
+    "shortName": "Penn State",
+    "fullName": "Penn State Nittany Lions",
+    "name": "Penn State",
+    "nickName": "Nittany Lions",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 194,
+    "shortName": "OSU",
+    "fullName": "Ohio State Buckeyes",
+    "name": "Ohio State",
+    "nickName": "Buckeyes",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 235,
+    "shortName": "Memphis",
+    "fullName": "Memphis Tigers",
+    "name": "Memphis",
+    "nickName": "Tigers",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 2429,
+    "shortName": "Charlotte",
+    "fullName": "Charlotte 49ers",
+    "name": "Charlotte",
+    "nickName": "49ers",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 344,
+    "shortName": "Miss St",
+    "fullName": "Mississippi State Bulldogs",
+    "name": "Mississippi State",
+    "nickName": "Bulldogs",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 201,
+    "shortName": "Oklahoma",
+    "fullName": "Oklahoma Sooners",
+    "name": "Oklahoma",
+    "nickName": "Sooners",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 2050,
+    "shortName": "Ball State",
+    "fullName": "Ball State Cardinals",
+    "name": "Ball State",
+    "nickName": "Cardinals",
+    "conferenceName": "Mid-American - West"
+  },
+  {
+    "id": 2541,
+    "shortName": "Santa Clara",
+    "fullName": "Santa Clara Broncos",
+    "name": "Santa Clara",
+    "nickName": "Broncos",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 228,
+    "shortName": "Clemson",
+    "fullName": "Clemson Tigers",
+    "name": "Clemson",
+    "nickName": "Tigers",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 135,
+    "shortName": "Minnesota",
+    "fullName": "Minnesota Golden Gophers",
+    "name": "Minnesota",
+    "nickName": "Golden Gophers",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2454,
+    "shortName": "North Florida",
+    "fullName": "North Florida Ospreys",
+    "name": "North Florida",
+    "nickName": "Ospreys",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 140,
+    "shortName": "UMKC",
+    "fullName": "UMKC Kangaroos",
+    "name": "UMKC",
+    "nickName": "Kangaroos",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 2032,
+    "shortName": "Arkansas State",
+    "fullName": "Arkansas State Red Wolves",
+    "name": "Arkansas State",
+    "nickName": "Red Wolves",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 2193,
+    "shortName": "ETSU",
+    "fullName": "East Tennessee State Buccaneers",
+    "name": "East Tennessee State",
+    "nickName": "Buccaneers",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 282,
+    "shortName": "Indiana State",
+    "fullName": "Indiana State Sycamores",
+    "name": "Indiana State",
+    "nickName": "Sycamores",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 2916,
+    "shortName": "Incarnate Word",
+    "fullName": "Incarnate Word Cardinals",
+    "name": "Incarnate Word",
+    "nickName": "Cardinals",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2378,
+    "shortName": "UMBC",
+    "fullName": "UMBC Retrievers",
+    "name": "UMBC",
+    "nickName": "Retrievers",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 2515,
+    "shortName": "Radford",
+    "fullName": "Radford Highlanders",
+    "name": "Radford",
+    "nickName": "Highlanders",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 276,
+    "shortName": "Marshall",
+    "fullName": "Marshall Thundering Herd",
+    "name": "Marshall",
+    "nickName": "Thundering Herd",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2483,
+    "shortName": "Oregon",
+    "fullName": "Oregon Ducks",
+    "name": "Oregon",
+    "nickName": "Ducks",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2717,
+    "shortName": "W Carolina",
+    "fullName": "Western Carolina Catamounts",
+    "name": "Western Carolina",
+    "nickName": "Catamounts",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 2379,
+    "shortName": "MD-E Shore",
+    "fullName": "Maryland-Eastern Shore Hawks",
+    "name": "Maryland-Eastern Shore",
+    "nickName": "Hawks",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2507,
+    "shortName": "Providence",
+    "fullName": "Providence Friars",
+    "name": "Providence",
+    "nickName": "Friars",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 248,
+    "shortName": "Houston",
+    "fullName": "Houston Cougars",
+    "name": "Houston",
+    "nickName": "Cougars",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 2561,
+    "shortName": "Siena",
+    "fullName": "Siena Saints",
+    "name": "Siena",
+    "nickName": "Saints",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 2382,
+    "shortName": "Mercer",
+    "fullName": "Mercer Bears",
+    "name": "Mercer",
+    "nickName": "Bears",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 9,
+    "shortName": "Arizona State",
+    "fullName": "Arizona State Sun Devils",
+    "name": "Arizona State",
+    "nickName": "Sun Devils",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2750,
+    "shortName": "Wright State",
+    "fullName": "Wright State Raiders",
+    "name": "Wright State",
+    "nickName": "Raiders",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 77,
+    "shortName": "Northwestern",
+    "fullName": "Northwestern Wildcats",
+    "name": "Northwestern",
+    "nickName": "Wildcats",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 204,
+    "shortName": "Oregon State",
+    "fullName": "Oregon State Beavers",
+    "name": "Oregon State",
+    "nickName": "Beavers",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2217,
+    "shortName": "Fairfield",
+    "fullName": "Fairfield Stags",
+    "name": "Fairfield",
+    "nickName": "Stags",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 2320,
+    "shortName": "Lamar",
+    "fullName": "Lamar Cardinals",
+    "name": "Lamar",
+    "nickName": "Cardinals",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2542,
+    "shortName": "Savannah State",
+    "fullName": "Savannah State Tigers",
+    "name": "Savannah State",
+    "nickName": "Tigers",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2641,
+    "shortName": "Texas Tech",
+    "fullName": "Texas Tech Red Raiders",
+    "name": "Texas Tech",
+    "nickName": "Red Raiders",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 2010,
+    "shortName": "Alabama A&M",
+    "fullName": "Alabama A&M Bulldogs",
+    "name": "Alabama A&M",
+    "nickName": "Bulldogs",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 2116,
+    "shortName": "UCF",
+    "fullName": "UCF Knights",
+    "name": "UCF",
+    "nickName": "Knights",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 164,
+    "shortName": "Rutgers",
+    "fullName": "Rutgers Scarlet Knights",
+    "name": "Rutgers",
+    "nickName": "Scarlet Knights",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 84,
+    "shortName": "Indiana",
+    "fullName": "Indiana Hoosiers",
+    "name": "Indiana",
+    "nickName": "Hoosiers",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2437,
+    "shortName": "Omaha",
+    "fullName": "Omaha Mavericks",
+    "name": "Omaha",
+    "nickName": "Mavericks",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 108,
+    "shortName": "Harvard",
+    "fullName": "Harvard Crimson",
+    "name": "Harvard",
+    "nickName": "Crimson",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 2294,
+    "shortName": "Iowa",
+    "fullName": "Iowa Hawkeyes",
+    "name": "Iowa",
+    "nickName": "Hawkeyes",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2016,
+    "shortName": "Alcorn State",
+    "fullName": "Alcorn State Braves",
+    "name": "Alcorn State",
+    "nickName": "Braves",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 2046,
+    "shortName": "Austin Peay",
+    "fullName": "Austin Peay Governors",
+    "name": "Austin Peay",
+    "nickName": "Governors",
+    "conferenceName": "Ohio Valley - West"
+  },
+  {
+    "id": 2885,
+    "shortName": "NJIT",
+    "fullName": "NJIT Highlanders",
+    "name": "NJIT",
+    "nickName": "Highlanders",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 300,
+    "shortName": "UC Irvine",
+    "fullName": "UC Irvine Anteaters",
+    "name": "UC Irvine",
+    "nickName": "Anteaters",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 71,
+    "shortName": "Bradley",
+    "fullName": "Bradley Braves",
+    "name": "Bradley",
+    "nickName": "Braves",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 2640,
+    "shortName": "Texas Southern",
+    "fullName": "Texas Southern Tigers",
+    "name": "Texas Southern",
+    "nickName": "Tigers",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 2287,
+    "shortName": "Illinois State",
+    "fullName": "Illinois State Redbirds",
+    "name": "Illinois State",
+    "nickName": "Redbirds",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 57,
+    "shortName": "Florida",
+    "fullName": "Florida Gators",
+    "name": "Florida",
+    "nickName": "Gators",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 127,
+    "shortName": "Michigan State",
+    "fullName": "Michigan State Spartans",
+    "name": "Michigan State",
+    "nickName": "Spartans",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2226,
+    "shortName": "FAU",
+    "fullName": "Florida Atlantic Owls",
+    "name": "Florida Atlantic",
+    "nickName": "Owls",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2655,
+    "shortName": "Tulane",
+    "fullName": "Tulane Green Wave",
+    "name": "Tulane",
+    "nickName": "Green Wave",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 279,
+    "shortName": "Pacific",
+    "fullName": "Pacific Tigers",
+    "name": "Pacific",
+    "nickName": "Tigers",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 2550,
+    "shortName": "Seton Hall",
+    "fullName": "Seton Hall Pirates",
+    "name": "Seton Hall",
+    "nickName": "Pirates",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 58,
+    "shortName": "USF",
+    "fullName": "South Florida Bulls",
+    "name": "South Florida",
+    "nickName": "Bulls",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 2529,
+    "shortName": "Sacred Heart",
+    "fullName": "Sacred Heart Pioneers",
+    "name": "Sacred Heart",
+    "nickName": "Pioneers",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 356,
+    "shortName": "Illinois",
+    "fullName": "Illinois Fighting Illini",
+    "name": "Illinois",
+    "nickName": "Fighting Illini",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 399,
+    "shortName": "Albany",
+    "fullName": "Albany Great Danes",
+    "name": "Albany",
+    "nickName": "Great Danes",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 339,
+    "shortName": "Evansville",
+    "fullName": "Evansville Purple Aces",
+    "name": "Evansville",
+    "nickName": "Purple Aces",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 2633,
+    "shortName": "Tennessee",
+    "fullName": "Tennessee Volunteers",
+    "name": "Tennessee",
+    "nickName": "Volunteers",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2306,
+    "shortName": "Kansas State",
+    "fullName": "Kansas State Wildcats",
+    "name": "Kansas State",
+    "nickName": "Wildcats",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 2117,
+    "shortName": "Cent Michigan",
+    "fullName": "Central Michigan Chippewas",
+    "name": "Central Michigan",
+    "nickName": "Chippewas",
+    "conferenceName": "Mid-American - West"
+  },
+  {
+    "id": 2636,
+    "shortName": "UTSA",
+    "fullName": "UT San Antonio Roadrunners",
+    "name": "UT San Antonio",
+    "nickName": "Roadrunners",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2448,
+    "shortName": "NC A&T",
+    "fullName": "North Carolina A&T Aggies",
+    "name": "North Carolina A&T",
+    "nickName": "Aggies",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 111,
+    "shortName": "Northeastern",
+    "fullName": "Northeastern Huskies",
+    "name": "Northeastern",
+    "nickName": "Huskies",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 2540,
+    "shortName": "UCSB",
+    "fullName": "UC Santa Barbara Gauchos",
+    "name": "UC Santa Barbara",
+    "nickName": "Gauchos",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 2174,
+    "shortName": "Detroit Mercy",
+    "fullName": "Detroit Mercy Titans",
+    "name": "Detroit Mercy",
+    "nickName": "Titans",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 2450,
+    "shortName": "Norfolk State",
+    "fullName": "Norfolk State Spartans",
+    "name": "Norfolk State",
+    "nickName": "Spartans",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2305,
+    "shortName": "Kansas",
+    "fullName": "Kansas Jayhawks",
+    "name": "Kansas",
+    "nickName": "Jayhawks",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 349,
+    "shortName": "Army",
+    "fullName": "Army Black Knights",
+    "name": "Army",
+    "nickName": "Black Knights",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 155,
+    "shortName": "North Dakota",
+    "fullName": "North Dakota Fighting Hawks",
+    "name": "North Dakota",
+    "nickName": "Fighting Hawks",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 222,
+    "shortName": "Villanova",
+    "fullName": "Villanova Wildcats",
+    "name": "Villanova",
+    "nickName": "Wildcats",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 116,
+    "shortName": "Mt St Mary's",
+    "fullName": "Mount St Mary's Mountaineers",
+    "name": "Mount St Mary's",
+    "nickName": "Mountaineers",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2181,
+    "shortName": "Drake",
+    "fullName": "Drake Bulldogs",
+    "name": "Drake",
+    "nickName": "Bulldogs",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 259,
+    "shortName": "Virginia Tech",
+    "fullName": "Virginia Tech Hokies",
+    "name": "Virginia Tech",
+    "nickName": "Hokies",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 2275,
+    "shortName": "Hofstra",
+    "fullName": "Hofstra Pride",
+    "name": "Hofstra",
+    "nickName": "Pride",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 2005,
+    "shortName": "Air Force",
+    "fullName": "Air Force Falcons",
+    "name": "Air Force",
+    "nickName": "Falcons",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 2244,
+    "shortName": "George Mason",
+    "fullName": "George Mason Patriots",
+    "name": "George Mason",
+    "nickName": "Patriots",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 79,
+    "shortName": "S Illinois",
+    "fullName": "Southern Illinois Salukis",
+    "name": "Southern Illinois",
+    "nickName": "Salukis",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 147,
+    "shortName": "Montana State",
+    "fullName": "Montana State Bobcats",
+    "name": "Montana State",
+    "nickName": "Bobcats",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2250,
+    "shortName": "Gonzaga",
+    "fullName": "Gonzaga Bulldogs",
+    "name": "Gonzaga",
+    "nickName": "Bulldogs",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 265,
+    "shortName": "Washington St",
+    "fullName": "Washington State Cougars",
+    "name": "Washington State",
+    "nickName": "Cougars",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2000,
+    "shortName": "Abil Christian",
+    "fullName": "Abilene Christian Wildcats",
+    "name": "Abilene Christian",
+    "nickName": "Wildcats",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 218,
+    "shortName": "Temple",
+    "fullName": "Temple Owls",
+    "name": "Temple",
+    "nickName": "Owls",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 172,
+    "shortName": "Cornell",
+    "fullName": "Cornell Big Red",
+    "name": "Cornell",
+    "nickName": "Big Red",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 2166,
+    "shortName": "Davidson",
+    "fullName": "Davidson Wildcats",
+    "name": "Davidson",
+    "nickName": "Wildcats",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2031,
+    "shortName": "Little Rock",
+    "fullName": "Little Rock Trojans",
+    "name": "Little Rock",
+    "nickName": "Trojans",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 2653,
+    "shortName": "Troy",
+    "fullName": "Troy Trojans",
+    "name": "Troy",
+    "nickName": "Trojans",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 304,
+    "shortName": "Idaho State",
+    "fullName": "Idaho State Bengals",
+    "name": "Idaho State",
+    "nickName": "Bengals",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2182,
+    "shortName": "Drexel",
+    "fullName": "Drexel Dragons",
+    "name": "Drexel",
+    "nickName": "Dragons",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 82,
+    "shortName": "UIC",
+    "fullName": "UIC Flames",
+    "name": "UIC",
+    "nickName": "Flames",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 107,
+    "shortName": "Holy Cross",
+    "fullName": "Holy Cross Crusaders",
+    "name": "Holy Cross",
+    "nickName": "Crusaders",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 2501,
+    "shortName": "Portland",
+    "fullName": "Portland Pilots",
+    "name": "Portland",
+    "nickName": "Pilots",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 66,
+    "shortName": "Iowa State",
+    "fullName": "Iowa State Cyclones",
+    "name": "Iowa State",
+    "nickName": "Cyclones",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 305,
+    "shortName": "DePaul",
+    "fullName": "DePaul Blue Demons",
+    "name": "DePaul",
+    "nickName": "Blue Demons",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 16,
+    "shortName": "Sacramento St",
+    "fullName": "Sacramento State Hornets",
+    "name": "Sacramento State",
+    "nickName": "Hornets",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2649,
+    "shortName": "Toledo",
+    "fullName": "Toledo Rockets",
+    "name": "Toledo",
+    "nickName": "Rockets",
+    "conferenceName": "Mid-American - West"
+  },
+  {
+    "id": 2405,
+    "shortName": "Monmouth",
+    "fullName": "Monmouth Hawks",
+    "name": "Monmouth",
+    "nickName": "Hawks",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 2097,
+    "shortName": "Campbell",
+    "fullName": "Campbell Fighting Camels",
+    "name": "Campbell",
+    "nickName": "Fighting Camels",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 68,
+    "shortName": "Boise State",
+    "fullName": "Boise State Broncos",
+    "name": "Boise State",
+    "nickName": "Broncos",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 2261,
+    "shortName": "Hampton",
+    "fullName": "Hampton Pirates",
+    "name": "Hampton",
+    "nickName": "Pirates",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2433,
+    "shortName": "UL Monroe",
+    "fullName": "Louisiana Monroe Warhawks",
+    "name": "Louisiana Monroe",
+    "nickName": "Warhawks",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 2520,
+    "shortName": "Rider",
+    "fullName": "Rider Broncs",
+    "name": "Rider",
+    "nickName": "Broncs",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 171,
+    "shortName": "Columbia",
+    "fullName": "Columbia Lions",
+    "name": "Columbia",
+    "nickName": "Lions",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 311,
+    "shortName": "Maine",
+    "fullName": "Maine Black Bears",
+    "name": "Maine",
+    "nickName": "Black Bears",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 2737,
+    "shortName": "Winthrop",
+    "fullName": "Winthrop Eagles",
+    "name": "Winthrop",
+    "nickName": "Eagles",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 2755,
+    "shortName": "Grambling",
+    "fullName": "Grambling Tigers",
+    "name": "Grambling",
+    "nickName": "Tigers",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 2504,
+    "shortName": "PV A&M",
+    "fullName": "Prairie View A&M Panthers",
+    "name": "Prairie View A&M",
+    "nickName": "Panthers",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 6,
+    "shortName": "South Alabama",
+    "fullName": "South Alabama Jaguars",
+    "name": "South Alabama",
+    "nickName": "Jaguars",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 2449,
+    "shortName": "North Dakota St",
+    "fullName": "North Dakota State Bison",
+    "name": "North Dakota State",
+    "nickName": "Bison",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 258,
+    "shortName": "UVA",
+    "fullName": "Virginia Cavaliers",
+    "name": "Virginia",
+    "nickName": "Cavaliers",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 166,
+    "shortName": "New Mexico St",
+    "fullName": "New Mexico State Aggies",
+    "name": "New Mexico State",
+    "nickName": "Aggies",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 2547,
+    "shortName": "Seattle",
+    "fullName": "Seattle Redhawks",
+    "name": "Seattle",
+    "nickName": "Redhawks",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 145,
+    "shortName": "Ole Miss",
+    "fullName": "Ole Miss Rebels",
+    "name": "Ole Miss",
+    "nickName": "Rebels",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2352,
+    "shortName": "Loyola (MD)",
+    "fullName": "Loyola (MD) Greyhounds",
+    "name": "Loyola (MD)",
+    "nickName": "Greyhounds",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 2415,
+    "shortName": "Morgan State",
+    "fullName": "Morgan State Bears",
+    "name": "Morgan State",
+    "nickName": "Bears",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 163,
+    "shortName": "Princeton",
+    "fullName": "Princeton Tigers",
+    "name": "Princeton",
+    "nickName": "Tigers",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 2603,
+    "shortName": "Saint Joe's",
+    "fullName": "Saint Joseph's Hawks",
+    "name": "Saint Joseph's",
+    "nickName": "Hawks",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 142,
+    "shortName": "Missouri",
+    "fullName": "Missouri Tigers",
+    "name": "Missouri",
+    "nickName": "Tigers",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2751,
+    "shortName": "Wyoming",
+    "fullName": "Wyoming Cowboys",
+    "name": "Wyoming",
+    "nickName": "Cowboys",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 2309,
+    "shortName": "Kent State",
+    "fullName": "Kent State Golden Flashes",
+    "name": "Kent State",
+    "nickName": "Golden Flashes",
+    "conferenceName": "Mid-American - East"
+  },
+  {
+    "id": 2569,
+    "shortName": "S Carolina St",
+    "fullName": "South Carolina State Bulldogs",
+    "name": "South Carolina State",
+    "nickName": "Bulldogs",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2473,
+    "shortName": "Oakland",
+    "fullName": "Oakland Golden Grizzlies",
+    "name": "Oakland",
+    "nickName": "Golden Grizzlies",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 231,
+    "shortName": "Furman",
+    "fullName": "Furman Paladins",
+    "name": "Furman",
+    "nickName": "Paladins",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 2199,
+    "shortName": "E Michigan",
+    "fullName": "Eastern Michigan Eagles",
+    "name": "Eastern Michigan",
+    "nickName": "Eagles",
+    "conferenceName": "Mid-American - West"
+  },
+  {
+    "id": 2599,
+    "shortName": "St John's",
+    "fullName": "St John's Red Storm",
+    "name": "St John's",
+    "nickName": "Red Storm",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 277,
+    "shortName": "West Virginia",
+    "fullName": "West Virginia Mountaineers",
+    "name": "West Virginia",
+    "nickName": "Mountaineers",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 94,
+    "shortName": "N Kentucky",
+    "fullName": "Northern Kentucky Norse",
+    "name": "Northern Kentucky",
+    "nickName": "Norse",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 27,
+    "shortName": "UC Riverside",
+    "fullName": "UC Riverside Highlanders",
+    "name": "UC Riverside",
+    "nickName": "Highlanders",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 309,
+    "shortName": "UL Lafayette",
+    "fullName": "UL Lafayette Ragin' Cajuns",
+    "name": "UL Lafayette",
+    "nickName": "Ragin' Cajuns",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 61,
+    "shortName": "Georgia",
+    "fullName": "Georgia Bulldogs",
+    "name": "Georgia",
+    "nickName": "Bulldogs",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2428,
+    "shortName": "NC Central",
+    "fullName": "North Carolina Central Eagles",
+    "name": "North Carolina Central",
+    "nickName": "Eagles",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2344,
+    "shortName": "Longwood",
+    "fullName": "Longwood Lancers",
+    "name": "Longwood",
+    "nickName": "Lancers",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 350,
+    "shortName": "UNC Wilmington",
+    "fullName": "UNC Wilmington Seahawks",
+    "name": "UNC Wilmington",
+    "nickName": "Seahawks",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 55,
+    "shortName": "Jacksonville St",
+    "fullName": "Jacksonville State Gamecocks",
+    "name": "Jacksonville State",
+    "nickName": "Gamecocks",
+    "conferenceName": "Ohio Valley - East"
+  },
+  {
+    "id": 290,
+    "shortName": "Ga Southern",
+    "fullName": "Georgia Southern Eagles",
+    "name": "Georgia Southern",
+    "nickName": "Eagles",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 43,
+    "shortName": "Yale",
+    "fullName": "Yale Bulldogs",
+    "name": "Yale",
+    "nickName": "Bulldogs",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 2272,
+    "shortName": "High Point",
+    "fullName": "High Point Panthers",
+    "name": "High Point",
+    "nickName": "Panthers",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 2747,
+    "shortName": "Wofford",
+    "fullName": "Wofford Terriers",
+    "name": "Wofford",
+    "nickName": "Terriers",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 48,
+    "shortName": "Delaware",
+    "fullName": "Delaware Blue Hens",
+    "name": "Delaware",
+    "nickName": "Blue Hens",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 2172,
+    "shortName": "Denver",
+    "fullName": "Denver Pioneers",
+    "name": "Denver",
+    "nickName": "Pioneers",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 302,
+    "shortName": "UC Davis",
+    "fullName": "UC Davis Aggies",
+    "name": "UC Davis",
+    "nickName": "Aggies",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 2460,
+    "shortName": "Northern Iowa",
+    "fullName": "Northern Iowa Panthers",
+    "name": "Northern Iowa",
+    "nickName": "Panthers",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 38,
+    "shortName": "Colorado",
+    "fullName": "Colorado Buffaloes",
+    "name": "Colorado",
+    "nickName": "Buffaloes",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 23,
+    "shortName": "San Jose State",
+    "fullName": "San José State Spartans",
+    "name": "San José State",
+    "nickName": "Spartans",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 2110,
+    "shortName": "Cent Arkansas",
+    "fullName": "Central Arkansas Bears",
+    "name": "Central Arkansas",
+    "nickName": "Bears",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2230,
+    "shortName": "Fordham",
+    "fullName": "Fordham Rams",
+    "name": "Fordham",
+    "nickName": "Rams",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 42,
+    "shortName": "Hartford",
+    "fullName": "Hartford Hawks",
+    "name": "Hartford",
+    "nickName": "Hawks",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 2229,
+    "shortName": "FIU",
+    "fullName": "Florida Intl Golden Panthers",
+    "name": "Florida Intl",
+    "nickName": "Golden Panthers",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2458,
+    "shortName": "N Colorado",
+    "fullName": "Northern Colorado Bears",
+    "name": "Northern Colorado",
+    "nickName": "Bears",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2006,
+    "shortName": "Akron",
+    "fullName": "Akron Zips",
+    "name": "Akron",
+    "nickName": "Zips",
+    "conferenceName": "Mid-American - East"
+  },
+  {
+    "id": 2368,
+    "shortName": "Marist",
+    "fullName": "Marist Red Foxes",
+    "name": "Marist",
+    "nickName": "Red Foxes",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 2692,
+    "shortName": "Weber State",
+    "fullName": "Weber State Wildcats",
+    "name": "Weber State",
+    "nickName": "Wildcats",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2349,
+    "shortName": "UMass Lowell",
+    "fullName": "UMass Lowell River Hawks",
+    "name": "UMass Lowell",
+    "nickName": "River Hawks",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 294,
+    "shortName": "Jacksonville",
+    "fullName": "Jacksonville Dolphins",
+    "name": "Jacksonville",
+    "nickName": "Dolphins",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 2277,
+    "shortName": "Houston Baptist",
+    "fullName": "Houston Baptist Huskies",
+    "name": "Houston Baptist",
+    "nickName": "Huskies",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 21,
+    "shortName": "San Diego State",
+    "fullName": "San Diego State Aztecs",
+    "name": "San Diego State",
+    "nickName": "Aztecs",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 153,
+    "shortName": "UNC",
+    "fullName": "North Carolina Tar Heels",
+    "name": "North Carolina",
+    "nickName": "Tar Heels",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 93,
+    "shortName": "Murray State",
+    "fullName": "Murray State Racers",
+    "name": "Murray State",
+    "nickName": "Racers",
+    "conferenceName": "Ohio Valley - West"
+  },
+  {
+    "id": 2571,
+    "shortName": "South Dakota St",
+    "fullName": "South Dakota State Jackrabbits",
+    "name": "South Dakota State",
+    "nickName": "Jackrabbits",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 2539,
+    "shortName": "San Francisco",
+    "fullName": "San Francisco Dons",
+    "name": "San Francisco",
+    "nickName": "Dons",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 256,
+    "shortName": "JMU",
+    "fullName": "James Madison Dukes",
+    "name": "James Madison",
+    "nickName": "Dukes",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 159,
+    "shortName": "Dartmouth",
+    "fullName": "Dartmouth Big Green",
+    "name": "Dartmouth",
+    "nickName": "Big Green",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 278,
+    "shortName": "Fresno State",
+    "fullName": "Fresno State Bulldogs",
+    "name": "Fresno State",
+    "nickName": "Bulldogs",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 357,
+    "shortName": "Texas A&M-CC",
+    "fullName": "Texas A&M-CC Islanders",
+    "name": "Texas A&M-CC",
+    "nickName": "Islanders",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2681,
+    "shortName": "Wagner",
+    "fullName": "Wagner Seahawks",
+    "name": "Wagner",
+    "nickName": "Seahawks",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 326,
+    "shortName": "Texas State",
+    "fullName": "Texas State Bobcats",
+    "name": "Texas State",
+    "nickName": "Bobcats",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 2154,
+    "shortName": "Coppin State",
+    "fullName": "Coppin State Eagles",
+    "name": "Coppin State",
+    "nickName": "Eagles",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2754,
+    "shortName": "Youngstown St",
+    "fullName": "Youngstown State Penguins",
+    "name": "Youngstown State",
+    "nickName": "Penguins",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 2579,
+    "shortName": "South Carolina",
+    "fullName": "South Carolina Gamecocks",
+    "name": "South Carolina",
+    "nickName": "Gamecocks",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2870,
+    "shortName": "Fort Wayne",
+    "fullName": "Fort Wayne Mastodons",
+    "name": "Fort Wayne",
+    "nickName": "Mastodons",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 2545,
+    "shortName": "SE Louisiana",
+    "fullName": "SE Louisiana Lions",
+    "name": "SE Louisiana",
+    "nickName": "Lions",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2253,
+    "shortName": "Grand Canyon",
+    "fullName": "Grand Canyon Lopes",
+    "name": "Grand Canyon",
+    "nickName": "Lopes",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 2168,
+    "shortName": "Dayton",
+    "fullName": "Dayton Flyers",
+    "name": "Dayton",
+    "nickName": "Flyers",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2463,
+    "shortName": "CSU Northridge",
+    "fullName": "CSU Northridge Matadors",
+    "name": "CSU Northridge",
+    "nickName": "Matadors",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 103,
+    "shortName": "Boston College",
+    "fullName": "Boston College Eagles",
+    "name": "Boston College",
+    "nickName": "Eagles",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 2546,
+    "shortName": "SE Missouri St",
+    "fullName": "Southeast Missouri State Redhawks",
+    "name": "Southeast Missouri State",
+    "nickName": "Redhawks",
+    "conferenceName": "Ohio Valley - West"
+  },
+  {
+    "id": 2241,
+    "shortName": "Gardner-Webb",
+    "fullName": "Gardner-Webb Bulldogs",
+    "name": "Gardner-Webb",
+    "nickName": "Bulldogs",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 328,
+    "shortName": "Utah State",
+    "fullName": "Utah State Aggies",
+    "name": "Utah State",
+    "nickName": "Aggies",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 2908,
+    "shortName": "USC Upstate",
+    "fullName": "South Carolina Upstate Spartans",
+    "name": "South Carolina Upstate",
+    "nickName": "Spartans",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 322,
+    "shortName": "Lafayette",
+    "fullName": "Lafayette Leopards",
+    "name": "Lafayette",
+    "nickName": "Leopards",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 2335,
+    "shortName": "Liberty",
+    "fullName": "Liberty Flames",
+    "name": "Liberty",
+    "nickName": "Flames",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 41,
+    "shortName": "UConn",
+    "fullName": "Connecticut Huskies",
+    "name": "Connecticut",
+    "nickName": "Huskies",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 269,
+    "shortName": "Marquette",
+    "fullName": "Marquette Golden Eagles",
+    "name": "Marquette",
+    "nickName": "Golden Eagles",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 2197,
+    "shortName": "E Illinois",
+    "fullName": "Eastern Illinois Panthers",
+    "name": "Eastern Illinois",
+    "nickName": "Panthers",
+    "conferenceName": "Ohio Valley - West"
+  },
+  {
+    "id": 130,
+    "shortName": "Michigan",
+    "fullName": "Michigan Wolverines",
+    "name": "Michigan",
+    "nickName": "Wolverines",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2390,
+    "shortName": "Miami",
+    "fullName": "Miami Hurricanes",
+    "name": "Miami",
+    "nickName": "Hurricanes",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 301,
+    "shortName": "San Diego",
+    "fullName": "San Diego Toreros",
+    "name": "San Diego",
+    "nickName": "Toreros",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 2934,
+    "shortName": "CSU Bakersfield",
+    "fullName": "CSU Bakersfield Roadrunners",
+    "name": "CSU Bakersfield",
+    "nickName": "Roadrunners",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 2169,
+    "shortName": "Delaware State",
+    "fullName": "Delaware State Hornets",
+    "name": "Delaware State",
+    "nickName": "Hornets",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 233,
+    "shortName": "South Dakota",
+    "fullName": "South Dakota Coyotes",
+    "name": "South Dakota",
+    "nickName": "Coyotes",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 2341,
+    "shortName": "LIU Brooklyn",
+    "fullName": "LIU Brooklyn Blackbirds",
+    "name": "LIU Brooklyn",
+    "nickName": "Blackbirds",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 24,
+    "shortName": "Stanford",
+    "fullName": "Stanford Cardinal",
+    "name": "Stanford",
+    "nickName": "Cardinal",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 56,
+    "shortName": "Stetson",
+    "fullName": "Stetson Hatters",
+    "name": "Stetson",
+    "nickName": "Hatters",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 87,
+    "shortName": "Notre Dame",
+    "fullName": "Notre Dame Fighting Irish",
+    "name": "Notre Dame",
+    "nickName": "Fighting Irish",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 44,
+    "shortName": "American U",
+    "fullName": "American Eagles",
+    "name": "American",
+    "nickName": "Eagles",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 59,
+    "shortName": "Georgia Tech",
+    "fullName": "Georgia Tech Yellow Jackets",
+    "name": "Georgia Tech",
+    "nickName": "Yellow Jackets",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 2514,
+    "shortName": "Quinnipiac",
+    "fullName": "Quinnipiac Bobcats",
+    "name": "Quinnipiac",
+    "nickName": "Bobcats",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 257,
+    "shortName": "Richmond",
+    "fullName": "Richmond Spiders",
+    "name": "Richmond",
+    "nickName": "Spiders",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2350,
+    "shortName": "Loyola-Chicago",
+    "fullName": "Loyola-Chicago Ramblers",
+    "name": "Loyola-Chicago",
+    "nickName": "Ramblers",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 152,
+    "shortName": "NC State",
+    "fullName": "NC State Wolfpack",
+    "name": "NC State",
+    "nickName": "Wolfpack",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 275,
+    "shortName": "Wisconsin",
+    "fullName": "Wisconsin Badgers",
+    "name": "Wisconsin",
+    "nickName": "Badgers",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2,
+    "shortName": "Auburn",
+    "fullName": "Auburn Tigers",
+    "name": "Auburn",
+    "nickName": "Tigers",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2623,
+    "shortName": "Missouri State",
+    "fullName": "Missouri State Bears",
+    "name": "Missouri State",
+    "nickName": "Bears",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 251,
+    "shortName": "Texas",
+    "fullName": "Texas Longhorns",
+    "name": "Texas",
+    "nickName": "Longhorns",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 158,
+    "shortName": "Nebraska",
+    "fullName": "Nebraska Cornhuskers",
+    "name": "Nebraska",
+    "nickName": "Cornhuskers",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 99,
+    "shortName": "LSU",
+    "fullName": "LSU Tigers",
+    "name": "LSU",
+    "nickName": "Tigers",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 221,
+    "shortName": "Pitt",
+    "fullName": "Pittsburgh Panthers",
+    "name": "Pittsburgh",
+    "nickName": "Panthers",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 25,
+    "shortName": "Cal",
+    "fullName": "California Golden Bears",
+    "name": "California",
+    "nickName": "Golden Bears",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2608,
+    "shortName": "Saint Mary's",
+    "fullName": "Saint Mary's Gaels",
+    "name": "Saint Mary's",
+    "nickName": "Gaels",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 2430,
+    "shortName": "UNCG",
+    "fullName": "UNC Greensboro Spartans",
+    "name": "UNC Greensboro",
+    "nickName": "Spartans",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 2630,
+    "shortName": "UT Martin",
+    "fullName": "UT Martin Skyhawks",
+    "name": "UT Martin",
+    "nickName": "Skyhawks",
+    "conferenceName": "Ohio Valley - West"
+  },
+  {
+    "id": 2132,
+    "shortName": "Cincinnati",
+    "fullName": "Cincinnati Bearcats",
+    "name": "Cincinnati",
+    "nickName": "Bearcats",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 189,
+    "shortName": "Bowling Green",
+    "fullName": "Bowling Green Falcons",
+    "name": "Bowling Green",
+    "nickName": "Falcons",
+    "conferenceName": "Mid-American - East"
+  },
+  {
+    "id": 62,
+    "shortName": "Hawai'i",
+    "fullName": "Hawai'i Rainbow Warriors",
+    "name": "Hawai'i",
+    "nickName": "Rainbow Warriors",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 198,
+    "shortName": "Oral Roberts",
+    "fullName": "Oral Roberts Golden Eagles",
+    "name": "Oral Roberts",
+    "nickName": "Golden Eagles",
+    "conferenceName": "Summit League"
+  },
+  {
+    "id": 2086,
+    "shortName": "Butler",
+    "fullName": "Butler Bulldogs",
+    "name": "Butler",
+    "nickName": "Bulldogs",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 333,
+    "shortName": "Alabama",
+    "fullName": "Alabama Crimson Tide",
+    "name": "Alabama",
+    "nickName": "Crimson Tide",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2464,
+    "shortName": "N Arizona",
+    "fullName": "Northern Arizona Lumberjacks",
+    "name": "Northern Arizona",
+    "nickName": "Lumberjacks",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 324,
+    "shortName": "C. Carolina",
+    "fullName": "Coastal Carolina Chanticleers",
+    "name": "Coastal Carolina",
+    "nickName": "Chanticleers",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 183,
+    "shortName": "Syracuse",
+    "fullName": "Syracuse Orange",
+    "name": "Syracuse",
+    "nickName": "Orange",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 295,
+    "shortName": "Old Dominion",
+    "fullName": "Old Dominion Monarchs",
+    "name": "Old Dominion",
+    "nickName": "Monarchs",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2099,
+    "shortName": "Canisius",
+    "fullName": "Canisius Golden Griffins",
+    "name": "Canisius",
+    "nickName": "Golden Griffins",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 202,
+    "shortName": "Tulsa",
+    "fullName": "Tulsa Golden Hurricane",
+    "name": "Tulsa",
+    "nickName": "Golden Hurricane",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 315,
+    "shortName": "Niagara",
+    "fullName": "Niagara Purple Eagles",
+    "name": "Niagara",
+    "nickName": "Purple Eagles",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 151,
+    "shortName": "ECU",
+    "fullName": "East Carolina Pirates",
+    "name": "East Carolina",
+    "nickName": "Pirates",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 13,
+    "shortName": "Cal Poly",
+    "fullName": "Cal Poly Mustangs",
+    "name": "Cal Poly",
+    "nickName": "Mustangs",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 154,
+    "shortName": "Wake Forest",
+    "fullName": "Wake Forest Demon Deacons",
+    "name": "Wake Forest",
+    "nickName": "Demon Deacons",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 2198,
+    "shortName": "E Kentucky",
+    "fullName": "Eastern Kentucky Colonels",
+    "name": "Eastern Kentucky",
+    "nickName": "Colonels",
+    "conferenceName": "Ohio Valley - East"
+  },
+  {
+    "id": 2377,
+    "shortName": "McNeese",
+    "fullName": "McNeese Cowboys",
+    "name": "McNeese",
+    "nickName": "Cowboys",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2413,
+    "shortName": "Morehead State",
+    "fullName": "Morehead State Eagles",
+    "name": "Morehead State",
+    "nickName": "Eagles",
+    "conferenceName": "Ohio Valley - East"
+  },
+  {
+    "id": 52,
+    "shortName": "FSU",
+    "fullName": "Florida State Seminoles",
+    "name": "Florida State",
+    "nickName": "Seminoles",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 249,
+    "shortName": "North Texas",
+    "fullName": "North Texas Mean Green",
+    "name": "North Texas",
+    "nickName": "Mean Green",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2752,
+    "shortName": "Xavier",
+    "fullName": "Xavier Musketeers",
+    "name": "Xavier",
+    "nickName": "Musketeers",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 2447,
+    "shortName": "Nicholls",
+    "fullName": "Nicholls Colonels",
+    "name": "Nicholls",
+    "nickName": "Colonels",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 2066,
+    "shortName": "Binghamton",
+    "fullName": "Binghamton Bearcats",
+    "name": "Binghamton",
+    "nickName": "Bearcats",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 156,
+    "shortName": "Creighton",
+    "fullName": "Creighton Bluejays",
+    "name": "Creighton",
+    "nickName": "Bluejays",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 2239,
+    "shortName": "CSU Fullerton",
+    "fullName": "CS Fullerton Titans",
+    "name": "CS Fullerton",
+    "nickName": "Titans",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 2597,
+    "shortName": "St Francis (BKN)",
+    "fullName": "St Francis (BKN) Terriers",
+    "name": "St Francis (BKN)",
+    "nickName": "Terriers",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2247,
+    "shortName": "Georgia State",
+    "fullName": "Georgia State Panthers",
+    "name": "Georgia State",
+    "nickName": "Panthers",
+    "conferenceName": "Sun Belt Conference"
+  },
+  {
+    "id": 288,
+    "shortName": "Lipscomb",
+    "fullName": "Lipscomb Bisons",
+    "name": "Lipscomb",
+    "nickName": "Bisons",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 120,
+    "shortName": "Maryland",
+    "fullName": "Maryland Terrapins",
+    "name": "Maryland",
+    "nickName": "Terrapins",
+    "conferenceName": "Big Ten Conference"
+  },
+  {
+    "id": 2083,
+    "shortName": "Bucknell",
+    "fullName": "Bucknell Bison",
+    "name": "Bucknell",
+    "nickName": "Bison",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 30,
+    "shortName": "USC",
+    "fullName": "USC Trojans",
+    "name": "USC",
+    "nickName": "Trojans",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 252,
+    "shortName": "BYU",
+    "fullName": "BYU Cougars",
+    "name": "BYU",
+    "nickName": "Cougars",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 195,
+    "shortName": "Ohio",
+    "fullName": "Ohio Bobcats",
+    "name": "Ohio",
+    "nickName": "Bobcats",
+    "conferenceName": "Mid-American - East"
+  },
+  {
+    "id": 2634,
+    "shortName": "Tennessee St",
+    "fullName": "Tennessee State Tigers",
+    "name": "Tennessee State",
+    "nickName": "Tigers",
+    "conferenceName": "Ohio Valley - East"
+  },
+  {
+    "id": 338,
+    "shortName": "Kennesaw St",
+    "fullName": "Kennesaw State Owls",
+    "name": "Kennesaw State",
+    "nickName": "Owls",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 2582,
+    "shortName": "Southern",
+    "fullName": "Southern Jaguars",
+    "name": "Southern",
+    "nickName": "Jaguars",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 299,
+    "shortName": "LBSU",
+    "fullName": "Long Beach State 49ers",
+    "name": "Long Beach State",
+    "nickName": "49ers",
+    "conferenceName": "Big West Conference"
+  },
+  {
+    "id": 236,
+    "shortName": "Chattanooga",
+    "fullName": "Chattanooga Mocs",
+    "name": "Chattanooga",
+    "nickName": "Mocs",
+    "conferenceName": "Southern Conference"
+  },
+  {
+    "id": 314,
+    "shortName": "Iona",
+    "fullName": "Iona Gaels",
+    "name": "Iona",
+    "nickName": "Gaels",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 2459,
+    "shortName": "N Illinois",
+    "fullName": "Northern Illinois Huskies",
+    "name": "Northern Illinois",
+    "nickName": "Huskies",
+    "conferenceName": "Mid-American - West"
+  },
+  {
+    "id": 331,
+    "shortName": "E Washington",
+    "fullName": "Eastern Washington Eagles",
+    "name": "Eastern Washington",
+    "nickName": "Eagles",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2325,
+    "shortName": "La Salle",
+    "fullName": "La Salle Explorers",
+    "name": "La Salle",
+    "nickName": "Explorers",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2011,
+    "shortName": "Alabama State",
+    "fullName": "Alabama State Hornets",
+    "name": "Alabama State",
+    "nickName": "Hornets",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 96,
+    "shortName": "Kentucky",
+    "fullName": "Kentucky Wildcats",
+    "name": "Kentucky",
+    "nickName": "Wildcats",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2466,
+    "shortName": "Northwestern St",
+    "fullName": "Northwestern State Demons",
+    "name": "Northwestern State",
+    "nickName": "Demons",
+    "conferenceName": "Southland Conference"
+  },
+  {
+    "id": 98,
+    "shortName": "W Kentucky",
+    "fullName": "Western Kentucky Hilltoppers",
+    "name": "Western Kentucky",
+    "nickName": "Hilltoppers",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 225,
+    "shortName": "Brown",
+    "fullName": "Brown Bears",
+    "name": "Brown",
+    "nickName": "Bears",
+    "conferenceName": "Ivy League"
+  },
+  {
+    "id": 45,
+    "shortName": "G Washington",
+    "fullName": "George Washington Colonials",
+    "name": "George Washington",
+    "nickName": "Colonials",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2427,
+    "shortName": "UNC Asheville",
+    "fullName": "UNC Asheville Bulldogs",
+    "name": "UNC Asheville",
+    "nickName": "Bulldogs",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 193,
+    "shortName": "Miami (OH)",
+    "fullName": "Miami (OH) RedHawks",
+    "name": "Miami (OH)",
+    "nickName": "RedHawks",
+    "conferenceName": "Mid-American - East"
+  },
+  {
+    "id": 5,
+    "shortName": "UAB",
+    "fullName": "UAB Blazers",
+    "name": "UAB",
+    "nickName": "Blazers",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 150,
+    "shortName": "Duke",
+    "fullName": "Duke Blue Devils",
+    "name": "Duke",
+    "nickName": "Blue Devils",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 36,
+    "shortName": "Colorado State",
+    "fullName": "Colorado State Rams",
+    "name": "Colorado State",
+    "nickName": "Rams",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 264,
+    "shortName": "Washington",
+    "fullName": "Washington Huskies",
+    "name": "Washington",
+    "nickName": "Huskies",
+    "conferenceName": "Pac-12 Conference"
+  },
+  {
+    "id": 2729,
+    "shortName": "William & Mary",
+    "fullName": "William & Mary Tribe",
+    "name": "William & Mary",
+    "nickName": "Tribe",
+    "conferenceName": "Colonial Athletic Association"
+  },
+  {
+    "id": 227,
+    "shortName": "URI",
+    "fullName": "Rhode Island Rams",
+    "name": "Rhode Island",
+    "nickName": "Rams",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2363,
+    "shortName": "Manhattan",
+    "fullName": "Manhattan Jaspers",
+    "name": "Manhattan",
+    "nickName": "Jaspers",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 113,
+    "shortName": "UMass",
+    "fullName": "Massachusetts Minutemen",
+    "name": "Massachusetts",
+    "nickName": "Minutemen",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2130,
+    "shortName": "Chicago State",
+    "fullName": "Chicago State Cougars",
+    "name": "Chicago State",
+    "nickName": "Cougars",
+    "conferenceName": "Western Athletic Conference"
+  },
+  {
+    "id": 2502,
+    "shortName": "Portland State",
+    "fullName": "Portland State Vikings",
+    "name": "Portland State",
+    "nickName": "Vikings",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 104,
+    "shortName": "Boston U",
+    "fullName": "Boston University Terriers",
+    "name": "Boston University",
+    "nickName": "Terriers",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 8,
+    "shortName": "Arkansas",
+    "fullName": "Arkansas Razorbacks",
+    "name": "Arkansas",
+    "nickName": "Razorbacks",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 46,
+    "shortName": "Georgetown",
+    "fullName": "Georgetown Hoyas",
+    "name": "Georgetown",
+    "nickName": "Hoyas",
+    "conferenceName": "Big East Conference"
+  },
+  {
+    "id": 2674,
+    "shortName": "Valparaiso",
+    "fullName": "Valparaiso Crusaders",
+    "name": "Valparaiso",
+    "nickName": "Crusaders",
+    "conferenceName": "Horizon League"
+  },
+  {
+    "id": 2184,
+    "shortName": "Duquesne",
+    "fullName": "Duquesne Dukes",
+    "name": "Duquesne",
+    "nickName": "Dukes",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 2127,
+    "shortName": "Charleston So",
+    "fullName": "Charleston Southern Buccaneers",
+    "name": "Charleston Southern",
+    "nickName": "Buccaneers",
+    "conferenceName": "Big South Conference"
+  },
+  {
+    "id": 239,
+    "shortName": "Baylor",
+    "fullName": "Baylor Bears",
+    "name": "Baylor",
+    "nickName": "Bears",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 149,
+    "shortName": "Montana",
+    "fullName": "Montana Grizzlies",
+    "name": "Montana",
+    "nickName": "Grizzlies",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2724,
+    "shortName": "Wichita State",
+    "fullName": "Wichita State Shockers",
+    "name": "Wichita State",
+    "nickName": "Shockers",
+    "conferenceName": "Missouri Valley Conference"
+  },
+  {
+    "id": 2638,
+    "shortName": "UTEP",
+    "fullName": "UTEP Miners",
+    "name": "UTEP",
+    "nickName": "Miners",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2572,
+    "shortName": "Southern Miss",
+    "fullName": "Southern Miss Golden Eagles",
+    "name": "Southern Miss",
+    "nickName": "Golden Eagles",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 139,
+    "shortName": "Saint Louis",
+    "fullName": "Saint Louis Billikens",
+    "name": "Saint Louis",
+    "nickName": "Billikens",
+    "conferenceName": "Atlantic 10 Conference"
+  },
+  {
+    "id": 50,
+    "shortName": "Florida A&M",
+    "fullName": "Florida A&M Rattlers",
+    "name": "Florida A&M",
+    "nickName": "Rattlers",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 245,
+    "shortName": "Texas A&M",
+    "fullName": "Texas A&M Aggies",
+    "name": "Texas A&M",
+    "nickName": "Aggies",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 2612,
+    "shortName": "St Peter's",
+    "fullName": "Saint Peter's Peacocks",
+    "name": "Saint Peter's",
+    "nickName": "Peacocks",
+    "conferenceName": "Metro Atlantic Athletic Conference"
+  },
+  {
+    "id": 526,
+    "shortName": "FGCU",
+    "fullName": "Florida Gulf Coast Eagles",
+    "name": "Florida Gulf Coast",
+    "nickName": "Eagles",
+    "conferenceName": "Atlantic Sun Conference"
+  },
+  {
+    "id": 2329,
+    "shortName": "Lehigh",
+    "fullName": "Lehigh Mountain Hawks",
+    "name": "Lehigh",
+    "nickName": "Mountain Hawks",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 242,
+    "shortName": "Rice",
+    "fullName": "Rice Owls",
+    "name": "Rice",
+    "nickName": "Owls",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 2567,
+    "shortName": "SMU",
+    "fullName": "SMU Mustangs",
+    "name": "SMU",
+    "nickName": "Mustangs",
+    "conferenceName": "American Athletic Conference"
+  },
+  {
+    "id": 2439,
+    "shortName": "UNLV",
+    "fullName": "UNLV Rebels",
+    "name": "UNLV",
+    "nickName": "Rebels",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 2065,
+    "shortName": "Bethune-Cookman",
+    "fullName": "Bethune-Cookman Wildcats",
+    "name": "Bethune-Cookman",
+    "nickName": "Wildcats",
+    "conferenceName": "Mid-Eastern Athletic Conference"
+  },
+  {
+    "id": 2565,
+    "shortName": "SIU ED",
+    "fullName": "SIU Edwardsville Cougars",
+    "name": "SIU Edwardsville",
+    "nickName": "Cougars",
+    "conferenceName": "Ohio Valley - West"
+  },
+  {
+    "id": 160,
+    "shortName": "UNH",
+    "fullName": "New Hampshire Wildcats",
+    "name": "New Hampshire",
+    "nickName": "Wildcats",
+    "conferenceName": "America East Conference"
+  },
+  {
+    "id": 2348,
+    "shortName": "LA Tech",
+    "fullName": "Louisiana Tech Bulldogs",
+    "name": "Louisiana Tech",
+    "nickName": "Bulldogs",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 253,
+    "shortName": "Southern Utah",
+    "fullName": "Southern Utah Thunderbirds",
+    "name": "Southern Utah",
+    "nickName": "Thunderbirds",
+    "conferenceName": "Big Sky Conference"
+  },
+  {
+    "id": 2142,
+    "shortName": "Colgate",
+    "fullName": "Colgate Raiders",
+    "name": "Colgate",
+    "nickName": "Raiders",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 2440,
+    "shortName": "Nevada",
+    "fullName": "Nevada Wolf Pack",
+    "name": "Nevada",
+    "nickName": "Wolf Pack",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 161,
+    "shortName": "Fair Dickinson",
+    "fullName": "Fairleigh Dickinson Knights",
+    "name": "Fairleigh Dickinson",
+    "nickName": "Knights",
+    "conferenceName": "Northeast Conference"
+  },
+  {
+    "id": 2426,
+    "shortName": "Navy",
+    "fullName": "Navy Midshipmen",
+    "name": "Navy",
+    "nickName": "Midshipmen",
+    "conferenceName": "Patriot League"
+  },
+  {
+    "id": 2084,
+    "shortName": "Buffalo",
+    "fullName": "Buffalo Bulls",
+    "name": "Buffalo",
+    "nickName": "Bulls",
+    "conferenceName": "Mid-American - East"
+  },
+  {
+    "id": 2057,
+    "shortName": "Belmont",
+    "fullName": "Belmont Bruins",
+    "name": "Belmont",
+    "nickName": "Bruins",
+    "conferenceName": "Ohio Valley - East"
+  },
+  {
+    "id": 2393,
+    "shortName": "Mid Tennessee",
+    "fullName": "Middle Tennessee Blue Raiders",
+    "name": "Middle Tennessee",
+    "nickName": "Blue Raiders",
+    "conferenceName": "Conference USA"
+  },
+  {
+    "id": 97,
+    "shortName": "Louisville",
+    "fullName": "Louisville Cardinals",
+    "name": "Louisville",
+    "nickName": "Cardinals",
+    "conferenceName": "Atlantic Coast Conference"
+  },
+  {
+    "id": 2492,
+    "shortName": "Pepperdine",
+    "fullName": "Pepperdine Waves",
+    "name": "Pepperdine",
+    "nickName": "Waves",
+    "conferenceName": "West Coast Conference"
+  },
+  {
+    "id": 2400,
+    "shortName": "Miss Valley St",
+    "fullName": "Mississippi Valley State Delta Devils",
+    "name": "Mississippi Valley State",
+    "nickName": "Delta Devils",
+    "conferenceName": "Southwestern Athletic Conference"
+  },
+  {
+    "id": 167,
+    "shortName": "New Mexico",
+    "fullName": "New Mexico Lobos",
+    "name": "New Mexico",
+    "nickName": "Lobos",
+    "conferenceName": "Mountain West Conference"
+  },
+  {
+    "id": 197,
+    "shortName": "Oklahoma State",
+    "fullName": "Oklahoma State Cowboys",
+    "name": "Oklahoma State",
+    "nickName": "Cowboys",
+    "conferenceName": "Big 12 Conference"
+  },
+  {
+    "id": 238,
+    "shortName": "Vanderbilt",
+    "fullName": "Vanderbilt Commodores",
+    "name": "Vanderbilt",
+    "nickName": "Commodores",
+    "conferenceName": "Southeastern Conference"
+  },
+  {
+    "id": 261,
+    "shortName": "Vermont",
+    "fullName": "Vermont Catamounts",
+    "name": "Vermont",
+    "nickName": "Catamounts",
+    "conferenceName": "America East Conference"
+  }
+]

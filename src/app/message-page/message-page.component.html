@@ -1,0 +1,44 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">The Madness</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" (click)="goToHomePage($event)" href="">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link">Messages<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" *ngIf="StateService?.user?.isAdmin">
+        <a class="nav-link" href="">Admin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div style="height: 85%">
+  <div style="height:108%;" class="col-md-12 col-md-offset-2">
+    <div #scrollMe class="bs-example" id="messages">
+      
+      <div *ngFor="let message of messages | async">
+        
+        <div class="bubble" [class.you]="isYou(message.email)" [class.me]="isMe(message.email)">
+          <p>{{ message.message }}</p>
+          <div class="author">
+            {{ message.displayName }} | {{ message.timestamp | date:"MM/dd/yy hh:mm a" }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <figure class="highlight">
+      
+      <input style="width:85%; float:left" type="textarea" class="message-text" [(ngModel)]="newMessage" (keyup.enter)="sendMessage()">
+      <span><a class="send-message" (click)="sendMessage()">SEND</a></span>
+      
+      
+    </figure>
+  </div>
+</div>

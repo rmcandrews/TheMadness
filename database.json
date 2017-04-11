@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "uid": "RS31mMwPnjfTo3uNeZ4ABG4M2v52",
+            "isAdmin": true
+        },
+        {
+            "uid": "q6ukKIZinYZIb5RtjmWpVZXH2jN2",
+            "isAdmin": false
+        }
+    ]
+}
