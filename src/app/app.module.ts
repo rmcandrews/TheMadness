@@ -16,6 +16,8 @@ import { TeamSelectorComponent } from './common/team-selector/team-selector.comp
 import { AdminPoolListComponent } from './admin-page/admin-pool-list/admin-pool-list.component';
 import { AdminPoolCreatePageComponent } from './admin-page/admin-pool-create-page/admin-pool-create-page.component';
 import { HomePoolPageComponent } from './home-page/home-pool-page/home-pool-page.component';
+import { HomePoolOverviewComponent } from './home-page/home-pool-page/home-pool-overview/home-pool-overview.component';
+import { HomePoolDayComponent } from './home-page/home-pool-page/home-pool-day/home-pool-day.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDWEzOiQYr0Xia7LkUuoi-aNQRSlzq7ZYw",
@@ -53,7 +55,7 @@ const routes: Routes = [
     RegistrationPageComponent, 
     AdminPageComponent, 
     TeamSelectorComponent, 
-    AdminPoolListComponent, AdminPoolCreatePageComponent, HomePoolPageComponent
+    AdminPoolListComponent, AdminPoolCreatePageComponent, HomePoolPageComponent, HomePoolOverviewComponent, HomePoolDayComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [AF]
