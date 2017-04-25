@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AngularFireModule } from 'angularfire2';
 import { AF } from "./providers/af";
+import { ChartsModule } from 'ng2-charts';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import {RouterModule, Routes} from "@angular/router";
@@ -45,7 +46,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     NgbModule.forRoot(),
     FormsModule,
-    SelectModule
+    SelectModule,
+    ChartsModule
   ],
   declarations: [ 
     AppComponent, 

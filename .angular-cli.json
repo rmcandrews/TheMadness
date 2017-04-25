@@ -22,7 +22,8 @@
         "styles.css",
         "assets/css/ng2-select.css",
         "assets/css/bootstrap.min.css",
-        "assets/css/tachyons.min.css"
+        "assets/css/tachyons.min.css",
+        "assets/css/trumps.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

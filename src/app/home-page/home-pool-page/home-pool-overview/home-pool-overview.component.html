@@ -1,3 +1,68 @@
-<p>
-  Overview for {{year}}
-</p>
+<div class="pa3 pa4-ns">
+  <div class="w-100 f3 mb1">Standings</div>
+  <div class="ba b--light-silver br2">
+    <div class="cf">
+      <div class="bg-dark-gray white fl w-70 w-30-ns pa2">Name</div>
+      <div class="bg-dark-gray white bl b--white fl dn dn-m db-ns w-20-ns pa2">Day Eleminated</div>
+      <div class="bg-dark-gray white bl b--white fl db dn-l w-30 w-20-ns pa2">Day Elem</div>
+      <div class="bg-dark-gray white bl b--white fl dn dn-m db-ns w-20-ns pa2"> # Teams Left</div>
+      <div class="bg-dark-gray white bl b--white fl dn db-m w-20-ns pl2 pt2 pb2"># Tms Lft</div>
+      <div class="bg-dark-gray white bl b--white fl dn dn-m db-ns w-30-ns pa2">Teams Left</div>
+      <div class="bg-dark-gray white bl b--white fl dn db-m w-30-ns pa2">Tms Lft</div>
+    </div>
+    <div *ngIf="!participants.length" style="height: 16rem" class="overflow-y-scroll">
+      <div *ngFor="let number of [0,1,2,3,4,5,6,7]" class="cf">
+        <div class="h2 bt b--light-silver fl w-70 w-30-ns pa1 overflow-hidden nowrap"><div class="shine bg-light-gray h-100 w-100"></div></div>
+        <div class="h2 bt bl b--light-silver fl w-30 w-20-ns pa1"><div class="shine bg-light-gray h-100 w-100"></div></div>
+        <div class="h2 bt bl b--light-silver fl dn db-ns w-20-ns pa1"><div class="shine bg-light-gray h-100 w-100"></div></div>
+        <div class="h2 bt bl b--light-silver fl dn db-ns w-30-ns pa1"><div class="shine bg-light-gray h-100 w-100"></div></div>
+      </div>
+    </div>
+    <div *ngIf="participants.length" style="max-height: 16rem" class="overflow-y-scroll">
+      <div *ngFor="let participant of participants" class="cf">
+        <div class="h2 bt b--light-silver fl w-70 w-30-ns pa1 overflow-hidden nowrap">{{participant['displayName']}}</div>
+        <div class="h2 bt bl b--light-silver fl w-30 w-20-ns pa1"></div>
+        <div class="h2 bt bl b--light-silver fl dn db-ns w-20-ns pa1"></div>
+        <div class="h2 bt bl b--light-silver fl dn db-ns w-30-ns pa1 overflow-hidden nowrap">
+          <div class="overflow-x-scroll pb3">
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+  <div class="w-100 f3 mt3">Stats</div>
+  <div class="cf">
+    <div class="mt1 db fl w-100 w-47-5-ns">
+      <div class="w-100 tc mb2">Picks by Team</div>
+      <canvas baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType"></canvas>
+    </div>
+    <div class="pa1 fl dn db-l db-m w-5-ns"></div>
+    <div class="mt1 db fl w-100 w-47-5-ns">
+      <div class="w-100 tc mb2">Picks by Seed</div>
+      <canvas baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType"></canvas>
+    </div>
+  </div>
+</div>

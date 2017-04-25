@@ -106,6 +106,17 @@ export class AF {
         return this.pools.push(pool);
     }
 
+    getPoolsWithYear(year) {
+        return this.af.database.list('pools', {
+            query: {
+                orderByChild: 'year',
+                equalTo: year 
+            }
+        })
+        .first()
+        .toPromise();
+    }
+
     /**
      * Saves a message to the Firebase Realtime Database
      * @param text
@@ -123,7 +134,8 @@ export class AF {
     addUserToPool(pool) {
         let currentPool = this.af.database.object('/pools/' + pool.$key);
         let user = {
-            uid: this.uid
+            uid: this.uid,
+            displayName: this.displayName
         };
         let participants = [];
         if(pool.participants) {

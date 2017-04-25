@@ -1,0 +1,32 @@
+/* Tachyons Additions */
+.w-45 {
+    width: 45%;
+}
+
+.w-47-5 {
+    width: 47.5%;
+}
+
+@media screen and (min-width: 48em) {
+    .w-5-ns {
+      width: 5%;
+    }
+    .w-45-ns {
+      width: 45%;
+    }
+    .w-47-5-ns {
+      width: 47.5%;
+    }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+    .w-45-m {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .w-45-l {
+        width: 45%;
+    }
+}
