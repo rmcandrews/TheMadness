@@ -2,7 +2,7 @@
   <div class="f4">Games</div>
   <div class="tc">
     <div *ngIf="addingGame" class="w3-card ma3 pa3 cf">
-      <div class="w-90 fl">
+      <div class="w-100 w-90-ns fl">
         <div class="mb2">
           <ng-select  [allowClear]="true"
                       [items]="['East','Midwest','South','West']"
@@ -24,7 +24,12 @@
                     placeholder="Region">
         </ng-select>
       </div>
-      <div class="w-10 fl f3" style="margin-top: 2.35rem">VS</div>
+      <div class="dn db-ns w-10 fl f3" style="margin-top: 2.35rem">
+        <a class="dim dib green" href=""><i class="material-icons" style="font-size: 35px">save</i></a>
+      </div>
+      <div class="dn-ns w-100 fl f3">
+        <a class="dn-s f6 dim ba ph3 pv2 dib green br2 mt3 w-80" href="">Save</a>
+      </div>
     </div>
     <div *ngIf="!addingGame" class="f5 gray">There ain't no games on this day yet</div>
     <a class="f5" (click)="startAddGame($event)" href="">Add Game</a>
