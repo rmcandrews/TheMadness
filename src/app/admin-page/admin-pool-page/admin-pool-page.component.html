@@ -45,5 +45,7 @@
     </ul>
   </div>
 </nav>
-<app-admin-pool-overview *ngIf="day === 0" [year]=year></app-admin-pool-overview>
-<app-admin-pool-day *ngIf="day !== 0" [day]=day [year]=year></app-admin-pool-day>
+<div class="w-100">
+  <app-admin-pool-overview *ngIf="day === 0" [year]=year class="w-100"></app-admin-pool-overview>
+  <app-admin-pool-day *ngIf="day !== 0" [day]=day [year]=year class="w-100"></app-admin-pool-day>
+</div>

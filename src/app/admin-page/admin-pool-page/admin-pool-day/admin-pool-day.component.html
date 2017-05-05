@@ -1,3 +1,32 @@
-<p>
-  admin-pool-day works!
-</p>
+<div class="w-100 pa3">
+  <div class="f4">Games</div>
+  <div class="tc">
+    <div *ngIf="addingGame" class="w3-card ma3 pa3 cf">
+      <div class="w-90 fl">
+        <div class="mb2">
+          <ng-select  [allowClear]="true"
+                      [items]="['East','Midwest','South','West']"
+                      [disabled]="disabled"
+                      (data)="refreshValue($event)"
+                      (selected)="regionSelected($event)"
+                      (removed)="removed($event)"
+                      (typed)="typed($event)"
+                      placeholder="Region">
+          </ng-select>
+        </div>
+        <ng-select  [allowClear]="true"
+                    [items]="['East','Midwest','South','West']"
+                    [disabled]="disabled"
+                    (data)="refreshValue($event)"
+                    (selected)="regionSelected($event)"
+                    (removed)="removed($event)"
+                    (typed)="typed($event)"
+                    placeholder="Region">
+        </ng-select>
+      </div>
+      <div class="w-10 fl f3" style="margin-top: 2.35rem">VS</div>
+    </div>
+    <div *ngIf="!addingGame" class="f5 gray">There ain't no games on this day yet</div>
+    <a class="f5" (click)="startAddGame($event)" href="">Add Game</a>
+  </div>
+</div>

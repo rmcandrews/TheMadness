@@ -8,10 +8,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class AdminPoolDayComponent implements OnInit {
   @Input() day: number;
   @Input() year: number;
+  public addingGame = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  startAddGame($event) {
+    $event.preventDefault();
+    this.addingGame = true;
   }
 
 }
