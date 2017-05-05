@@ -107,10 +107,13 @@ export class AF {
     }
 
     getPoolsWithYear(year) {
-        return this.af.database.list('pools', {
+        if (typeof year !== 'number') {
+            year = Number(year);
+        }
+        return this.af.database.list('pools',  {
             query: {
                 orderByChild: 'year',
-                equalTo: year 
+                equalTo: year
             }
         })
         .first()

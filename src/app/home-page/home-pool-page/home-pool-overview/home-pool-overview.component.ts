@@ -7,9 +7,9 @@ import {AF} from "./../../../providers/af";
   templateUrl: './home-pool-overview.component.html',
   styleUrls: ['./home-pool-overview.component.css']
 })
-export class HomePoolOverviewComponent {
+export class HomePoolOverviewComponent implements OnInit {
   @Input() year: number;
-  public pool: Object;
+  @Input() pool: Object;
   public participants: Array<Object> = [];
   
   public barChartOptions:any = {
@@ -44,18 +44,14 @@ export class HomePoolOverviewComponent {
     {data: [1, 1, 2, 3, 5, 5, 4, 2, 2, 0, 0, 1, 0, 0, 0, 0]}
   ];
 
-  constructor(public afService: AF) {
-    this.afService.getPoolsWithYear(this.year)
-    .then(pools => {
-      this.pool = pools[0];
-    })
-    .then(() => {
-      for (let key in this.pool['participants']) {
-        let participant = this.pool['participants'][key];
-        participant.teamsRemaining = this.getTeamsRemaining(participant);
-        this.participants.push(participant);
-      }
-    });
+  constructor(public afService: AF) {}
+
+  ngOnInit() {
+    for (let key in this.pool['participants']) {
+      let participant = this.pool['participants'][key];
+      participant.teamsRemaining = this.getTeamsRemaining(participant);
+      this.participants.push(participant);
+    }
   }
 
   getTeamsRemaining(participant) {

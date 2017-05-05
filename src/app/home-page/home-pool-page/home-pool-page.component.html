@@ -45,5 +45,5 @@
     </ul>
   </div>
 </nav>
-<app-home-pool-overview *ngIf="day === 0" [year]=year>Overview</app-home-pool-overview>
-<app-home-pool-day *ngIf="day !== 0" [day]=day [year]=year></app-home-pool-day>
+<app-home-pool-overview *ngIf="day === 0 && pool" [year]=year [pool]=pool>Overview</app-home-pool-overview>
+<app-home-pool-day *ngIf="day !== 0 && pool" [day]=day [year]=year [pool]=pool></app-home-pool-day>

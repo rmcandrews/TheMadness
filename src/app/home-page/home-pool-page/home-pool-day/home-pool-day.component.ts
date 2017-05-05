@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HomePoolDayComponent implements OnInit {
   @Input() day: number;
   @Input() year: number;
+  @Input() pool: Object;
 
   constructor() { }
 
