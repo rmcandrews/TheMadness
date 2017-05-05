@@ -1,0 +1,49 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse" style="min-height: 52px">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" [ngClass]="{'active': day===0 }">
+        <a class="nav-link" (click)="goToDay(0,$event)" href="">Overview</a>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{'active': ( day===1 || day===2)  }">
+        <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Round of 64</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" (click)="goToDay(1,$event)" href="">Day 1</a>
+          <a class="dropdown-item" (click)="goToDay(2,$event)" href="">Day 2</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{'active': ( day===3 || day===4)  }">
+        <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Round of 32</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" (click)="goToDay(3,$event)" href="">Day 1</a>
+          <a class="dropdown-item" (click)="goToDay(4,$event)" href="">Day 2</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{'active': ( day===5 || day===6)  }">
+        <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sweet 16</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" (click)="goToDay(5,$event)" href="">Day 1</a>
+          <a class="dropdown-item" (click)="goToDay(6,$event)" href="">Day 2</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{'active': ( day===7 || day===8)  }">
+        <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Elite 8</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" (click)="goToDay(7,$event)" href="">Day 1</a>
+          <a class="dropdown-item" (click)="goToDay(8,$event)" href="">Day 2</a>
+        </div>
+      </li>
+      <li class="nav-item" [ngClass]="{'active': day===9 }">
+        <a class="nav-link" (click)="goToDay(9,$event)" href="">Final 4</a>
+      </li>
+      <li class="nav-item" [ngClass]="{'active': day===10 }">
+        <a class="nav-link" (click)="goToDay(10,$event)" href="">Champ</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<app-admin-pool-overview *ngIf="day === 0" [year]=year></app-admin-pool-overview>
+<app-admin-pool-day *ngIf="day !== 0" [day]=day [year]=year></app-admin-pool-day>

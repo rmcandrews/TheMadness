@@ -26,8 +26,6 @@
     <div class="fl w-20 tr">
       <a *ngIf="isFirst && !userInPool(pool)" class="f6 dim ba ph3 pv2 dib green br2" (click)="joinPool($event, pool)" href="">Join</a>
       <a *ngIf="isFirst && userInPool(pool)" class="f6 dim ba ph3 pv2 dib blue br2" [routerLink]="['/pools', pool.year]" href="">View</a>
-      <a *ngIf="!isFirst" class="dn-s f6 dim ba ph3 pv2 dib green br2" [routerLink]="['/admin/pools', pool.year]" href="">History</a>
-      <a *ngIf="!isFirst" class="dn-ns dim ba ph3 pv1 dib green br2 h33px" [routerLink]="['/admin/pools', pool.year]" href=""><i class="material-icons">history</i></a>
     </div>
   </div>
 </div>

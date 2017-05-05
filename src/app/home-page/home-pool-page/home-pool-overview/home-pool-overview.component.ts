@@ -7,7 +7,7 @@ import {AF} from "./../../../providers/af";
   templateUrl: './home-pool-overview.component.html',
   styleUrls: ['./home-pool-overview.component.css']
 })
-export class HomePoolOverviewComponent implements OnInit {
+export class HomePoolOverviewComponent {
   @Input() year: number;
   public pool: Object;
   public participants: Array<Object> = [];
@@ -52,12 +52,26 @@ export class HomePoolOverviewComponent implements OnInit {
     .then(() => {
       for (let key in this.pool['participants']) {
         let participant = this.pool['participants'][key];
+        participant.teamsRemaining = this.getTeamsRemaining(participant);
         this.participants.push(participant);
       }
     });
   }
 
-  ngOnInit() {
+  getTeamsRemaining(participant) {
+    const pickedTeams = participant.pickedTeams;
+    const poolTeams = this.pool['teams'];
+    let teamsRemaining = Object.assign({}, poolTeams);
+    for (let pickedTeamKey in pickedTeams) {
+      let pickedTeam = pickedTeams[pickedTeamKey];
+      for (let poolTeamKey in poolTeams) {
+        let poolTeam = poolTeams[poolTeamKey];
+        if(pickedTeam['id'] === poolTeam['id']) {
+          delete teamsRemaining[poolTeamKey];
+        }
+      }
+    }
+    return Object.keys(teamsRemaining).map(key => teamsRemaining[key]);
   }
 
 }

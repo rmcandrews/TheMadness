@@ -20,23 +20,12 @@
     </div>
     <div *ngIf="participants.length" style="max-height: 16rem" class="overflow-y-scroll">
       <div *ngFor="let participant of participants" class="cf">
-        <div class="h2 bt b--light-silver fl w-70 w-30-ns pa1 overflow-hidden nowrap">{{participant['displayName']}}</div>
+        <div class="h2 bt b--light-silver fl w-70 w-30-ns pa1 overflow-hidden nowrap">{{participant.displayName}}</div>
         <div class="h2 bt bl b--light-silver fl w-30 w-20-ns pa1"></div>
-        <div class="h2 bt bl b--light-silver fl dn db-ns w-20-ns pa1"></div>
+        <div class="h2 bt bl b--light-silver fl dn db-ns w-20-ns pa1">{{participant.teamsRemaining.length}}</div>
         <div class="h2 bt bl b--light-silver fl dn db-ns w-30-ns pa1 overflow-hidden nowrap">
           <div class="overflow-x-scroll pb3">
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
-            <img style="margin-top: -10px;" src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/399.png&h=30&w=30"/>
+            <img *ngFor="let team of participant.teamsRemaining" style="margin-top: -10px;" src="{{ 'http://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/' + team.id + '.png&h=25&w=25'}}"/>
           </div>
         </div>
       </div>

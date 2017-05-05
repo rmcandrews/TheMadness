@@ -19,6 +19,9 @@ import { AdminPoolCreatePageComponent } from './admin-page/admin-pool-create-pag
 import { HomePoolPageComponent } from './home-page/home-pool-page/home-pool-page.component';
 import { HomePoolOverviewComponent } from './home-page/home-pool-page/home-pool-overview/home-pool-overview.component';
 import { HomePoolDayComponent } from './home-page/home-pool-page/home-pool-day/home-pool-day.component';
+import { AdminPoolPageComponent } from './admin-page/admin-pool-page/admin-pool-page.component';
+import { AdminPoolOverviewComponent } from './admin-page/admin-pool-page/admin-pool-overview/admin-pool-overview.component';
+import { AdminPoolDayComponent } from './admin-page/admin-pool-page/admin-pool-day/admin-pool-day.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDWEzOiQYr0Xia7LkUuoi-aNQRSlzq7ZYw",
@@ -35,7 +38,7 @@ const routes: Routes = [
   { path: 'message', component: MessagePageComponent },
   { path: 'admin', component: AdminPageComponent },
   { path: 'admin/create-pool', component: AdminPoolCreatePageComponent },
-  { path: 'admin/pools/:id', component: MessagePageComponent },
+  { path: 'admin/pools/:id', component: AdminPoolPageComponent },
   { path: 'pools/:id', component: HomePoolPageComponent }
 ];
 
@@ -57,7 +60,7 @@ const routes: Routes = [
     RegistrationPageComponent, 
     AdminPageComponent, 
     TeamSelectorComponent, 
-    AdminPoolListComponent, AdminPoolCreatePageComponent, HomePoolPageComponent, HomePoolOverviewComponent, HomePoolDayComponent
+    AdminPoolListComponent, AdminPoolCreatePageComponent, HomePoolPageComponent, HomePoolOverviewComponent, HomePoolDayComponent, AdminPoolPageComponent, AdminPoolOverviewComponent, AdminPoolDayComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [AF]
