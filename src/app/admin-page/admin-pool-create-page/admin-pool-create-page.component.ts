@@ -104,7 +104,11 @@ export class AdminPoolCreatePageComponent implements OnInit {
     const pool = {
       year: this.year,
       participants: [],
-      teams: this.teams
+      teams: this.teams,
+      status: {
+        day: 1,
+        state: "pending"
+      }
     }
     this.afService.createPool(pool)
     .then(() => {

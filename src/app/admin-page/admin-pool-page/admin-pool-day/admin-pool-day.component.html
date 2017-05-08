@@ -1,37 +1,115 @@
 <div class="w-100 pa3">
+
+  <!--Status section for non current day-->
+  <div *ngIf="pool.status.day != day && bootstrapped" class="mb1">
+    <div class="f4">Staus - 
+      <span *ngIf="pool.status.day > day" class="green">complete</span>
+      <span *ngIf="pool.status.day < day" class="gray">pending</span>
+    </div>
+    <div *ngIf="pool.status.day < day" class="w-100 tc mt3 mb2 cf">
+      <button *ngIf="pool.status.state == 'pending'" class="w-60 ba pv2 dib green br2 tc disabled">Ready</button>
+    </div>
+  </div>
+
+  <!--Status section for current day-->
+  <div *ngIf="pool.status.day == day && bootstrapped">
+    <div class="f4">Staus - 
+      <span *ngIf="pool.status.state == 'pending'" class="gray">{{pool.status.state}}</span>
+      <span *ngIf="pool.status.state == 'ready'" class="green">{{pool.status.state}}</span>
+      <span *ngIf="pool.status.state == 'in progress'" class="yellow">{{pool.status.state}}</span>
+      <span *ngIf="pool.status.state == 'complete'" class="red">{{pool.status.state}}</span>
+    </div>
+    <div class="w-100 tc mt3 mb2">
+      <button *ngIf="pool.status.state == 'pending'"
+          class="w-60 ba pv2 dib green br2 tc bg-transparent b--green dim" 
+          [disabled]="!(gamesData.length==maxGames)"
+          [ngClass]="!(gamesData.length==maxGames) ? 'disabled' : 'dim'"
+          (click)="updatePoolStatus('ready', day)">
+          Ready
+      </button>
+      <button *ngIf="pool.status.state == 'ready'"
+          class="w-60 ba pv2 dib red br2 tc bg-transparent b--red dim mb2" 
+          (click)="updatePoolStatus('pending', day)">
+          Pending
+      </button>
+      <button *ngIf="pool.status.state == 'ready'"
+          class="w-60 ba pv2 dib green br2 tc bg-transparent b--green" 
+          (click)="updatePoolStatus('in progress', day)">
+          Start
+      </button>
+      <button *ngIf="pool.status.state == 'in progress'"
+          class="w-60 ba pv2 dib red br2 tc bg-transparent b--red dim mb2" 
+          (click)="updatePoolStatus('ready', day)">
+          Stop
+      </button>
+      <button *ngIf="pool.status.state == 'in progress'"
+          class="w-60 ba pv2 dib green br2 tc bg-transparent b--green" 
+          (click)="updatePoolStatus('pending', day + 1)">
+          Complete
+      </button>
+    </div>
+  </div>
+
+  <!--Games section-->
   <div class="f4">Games</div>
   <div class="tc">
+    <div *ngFor="let game of (games | async)" class="w3-card ma3 pa3 cf">
+      <div class="w-60 dn db-ns fl tl ph2 pv3">{{game.team1.name}}</div>
+      <div class="w-60 dn-ns fl tl ph2 pv3">{{game.team1.shortName}}</div>
+      <div *ngIf="pool.status.state == 'pending' && pool.status.day <= day"class="w-40 fl tr pa2">
+        <button class="w-100 w-60-ns ba pv2 dib red br2 tc bg-transparent b--red" 
+                (click)="removeGame(game)">
+                Delete
+        </button>
+      </div>
+      <div class="w-60 dn db-ns fl tl ph2 pv3">{{game.team2.name}}</div>
+      <div class="w-60 dn-ns fl tl ph2 pv3">{{game.team2.shortName}}</div>
+    </div>
     <div *ngIf="addingGame" class="w3-card ma3 pa3 cf">
       <div class="w-100 w-90-ns fl">
         <div class="mb2">
-          <ng-select  [allowClear]="true"
-                      [items]="['East','Midwest','South','West']"
-                      [disabled]="disabled"
+          <ng-select  *ngIf="bootstrapped"
+                      [allowClear]="true"
+                      [items]="teamSelectorItems"
+                      [disabled]="!bootstrapped"
                       (data)="refreshValue($event)"
-                      (selected)="regionSelected($event)"
+                      (selected)="teamSelected1($event)"
                       (removed)="removed($event)"
                       (typed)="typed($event)"
-                      placeholder="Region">
+                      placeholder="Team 1">
           </ng-select>
         </div>
-        <ng-select  [allowClear]="true"
-                    [items]="['East','Midwest','South','West']"
-                    [disabled]="disabled"
+        <ng-select  *ngIf="bootstrapped"
+                    [allowClear]="true"
+                    [items]="teamSelectorItems"
+                    [disabled]="!bootstrapped"
                     (data)="refreshValue($event)"
-                    (selected)="regionSelected($event)"
+                    (selected)="teamSelected2($event)"
                     (removed)="removed($event)"
                     (typed)="typed($event)"
-                    placeholder="Region">
+                    placeholder="Team 2">
         </ng-select>
       </div>
       <div class="dn db-ns w-10 fl f3" style="margin-top: 2.35rem">
-        <a class="dim dib green" href=""><i class="material-icons" style="font-size: 35px">save</i></a>
+        <a class="dim dib green" 
+            (click)="addGame($event)"
+            href="">
+            <i class="material-icons" style="font-size: 35px">save</i>
+        </a>
       </div>
       <div class="dn-ns w-100 fl f3">
-        <a class="dn-s f6 dim ba ph3 pv2 dib green br2 mt3 w-80" href="">Save</a>
+        <a class="dn-s f6 dim ba ph3 pv2 dib green br2 mt3 w-80" 
+            (click)="addGame($event)"
+            href="">
+            Save
+        </a>
       </div>
+      <div class="w-100 fl f4 mt3 red" *ngIf=gameSaveError>{{gameSaveError}}</div>
     </div>
-    <div *ngIf="!addingGame" class="f5 gray">There ain't no games on this day yet</div>
-    <a class="f5" (click)="startAddGame($event)" href="">Add Game</a>
+    <div *ngIf="!addingGame && bootstrapped" class="f5">
+      <div *ngIf="gamesData.length == 0" class="gray">You haven't added any games on this day yet</div>
+      <a *ngIf="gamesData.length < maxGames" (click)="toggleAddingGame($event)" href="">Add Game</a>
+    </div>
+    <a *ngIf="addingGame" class="f5 red" (click)="toggleAddingGame($event)" href="">Cancel</a>
   </div>
 </div>

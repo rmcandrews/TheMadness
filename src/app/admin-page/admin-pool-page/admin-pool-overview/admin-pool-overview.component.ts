@@ -9,7 +9,7 @@ import {AF} from "./../../../providers/af";
 })
 export class AdminPoolOverviewComponent implements OnInit {
   @Input() year: number;
-  public pool: Object;
+  @Input() pool: Object;
   public participants: Array<Object> = [];
 
   constructor() { }

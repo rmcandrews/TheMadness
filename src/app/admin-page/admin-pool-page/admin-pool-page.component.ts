@@ -12,6 +12,7 @@ export class AdminPoolPageComponent implements OnInit {
   public day = 0;
   public year : number;
   public pool : Object;
+  public games: FirebaseListObservable<any>;
 
   constructor(private activatedRoute: ActivatedRoute, public afService: AF) { }
 
@@ -21,13 +22,14 @@ export class AdminPoolPageComponent implements OnInit {
       this.afService.getPoolsWithYear(this.year)
       .then(pools => {
         this.pool = pools[0];
-      })
+      });
     });
   }
 
   goToDay(day : number, $event) {
     $event.preventDefault();
     this.day = day;
+    console.log(this.pool);
   }
 
 }

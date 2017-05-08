@@ -157,3 +157,9 @@ body {
         background-position:250px 250px;
     }
 }
+
+button.disabled {
+  color: gray;
+  border-color: gray;
+  background: whitesmoke; 
+}

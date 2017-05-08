@@ -9,6 +9,7 @@ import 'rxjs/add/operator/toPromise';
 export class AF {
     public messages: FirebaseListObservable<any>;
     public pools: FirebaseListObservable<any>;
+    public games: FirebaseListObservable<any>;
     public users: FirebaseListObservable<any>;
     public teams: FirebaseListObservable<any>;
     public displayName: string;
@@ -18,6 +19,7 @@ export class AF {
     constructor(public af: AngularFire) {
         this.messages = this.af.database.list('messages');
         this.pools = this.af.database.list('pools');
+        this.games = this.af.database.list('games');
     }
     
     /**
@@ -118,6 +120,42 @@ export class AF {
         })
         .first()
         .toPromise();
+    }
+
+    updatePoolStatus(key, status) {
+        let pool = this.af.database.object(`/pools/${key}`);
+        return pool.update({
+            status: status
+        });
+    }
+
+    addGame(game) {
+        return this.games.push(game);
+    }
+
+    removeGame(game) {
+        return this.games.remove(game.$key);
+    }
+
+    getGamesWithYear(year) {
+        if (typeof year !== 'number') {
+            year = Number(year);
+        }
+        return this.af.database.list('games', {
+            query: {
+                orderByChild: 'year',
+                equalTo: year
+            }
+        })
+    }
+
+    getGamesWithYearAndDay(year, day) {
+        return this.af.database.list('games', {
+            query: {
+                orderByChild: 'yearDay',
+                equalTo: `${year}-${day}`
+            }
+        })
     }
 
     /**
